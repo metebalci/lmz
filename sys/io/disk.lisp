@@ -1280,9 +1280,9 @@ This is obsolete -- You probably want PRINT-HERALD"
     (SETQ CURRENT-LOADED-BAND %LOADED-BAND))
   (UNLESS (BOUNDP 'CURRENT-LOADED-BAND)
     (SETQ CURRENT-LOADED-BAND 0))
-  (FORMAT STREAM "~&~A System, band ~C of ~A."
-	  (IF (OR (NOT (VARIABLE-BOUNDP SITE-NAME)) (EQ SITE-NAME ':MIT))
-	      "MIT" "LMI")			;>> commercial lossage. fmh.
+;;; LMZ: the herald says LMZ.  It used to pick "MIT" or "LMI" by the site
+;;; name, a choice that means nothing in this system.
+  (FORMAT STREAM "~&LMZ System, band ~C of ~A."
 	  (LDB #o2010 CURRENT-LOADED-BAND)
 	  DISK-PACK-NAME)
   (AND (BOUNDP 'SYSTEM-ADDITIONAL-INFO)
