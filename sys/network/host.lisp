@@ -358,11 +358,8 @@ to give it a chance to create a host and add it to the host table."
 	   (DEFAULT-SYSTEM-TYPE-MIXIN HOST))
 (DEFPROP :DEFAULT DEFAULT-HOST HOST-FLAVOR)
 
-(DEFPROP :ITS HOST-ITS-MIXIN SYSTEM-TYPE-FLAVOR)
-(DEFFLAVOR HOST-ITS-MIXIN () () (:REQUIRED-FLAVORS HOST))
-
-(DEFMETHOD (HOST-ITS-MIXIN :PRIMARY-DEVICE) () "DSK")
-
+;; LMZ: the :ITS mixin (HOST-ITS-MIXIN) went with ITS support; LMZ never
+;; talks to an ITS host.
 ;; LMZ: the :TOPS-20 and :TENEX mixins (HOST-TOPS20-MIXIN, HOST-TENEX-MIXIN)
 ;; went with TOPS-20 and Tenex support; LMZ never talks to either.
 (DEFPROP :UNIX HOST-UNIX-MIXIN SYSTEM-TYPE-FLAVOR)
