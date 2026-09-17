@@ -8,10 +8,10 @@ repository, is something else: the site files a Lisp Machine loads.)
 - `style.css` is the stylesheet, in the look of ozd's page
   (<https://ozd.metebalci.com/>): ink and paper with one spot color, and no
   dark mode.
-- `mascot.svg` is LMZ's mascot, drawn by hand for this page: a small robot
-  with a screen for a face, parentheses for ears and a lambda for an antenna,
-  in a pink T-shirt with a Z. A paper halo under its linework lets it stand
-  on a dark background too. `favicon.svg` is its shirt, cropped to the Z.
+- `mascot.svg` is LMZ's mascot: a 3.5-inch diskette with a label reading
+  LMZ, wearing Cold Boot's face and waving arm, as ozd's page draws CADR, OZ
+  and muir-fpga's board. LMZ is the software, so it is the diskette.
+  `favicon.svg` is the diskette without its face.
 - `fonts/` holds the three families, served from here rather than from
   Google. `fonts/README.md` says where they came from and under what license.
 

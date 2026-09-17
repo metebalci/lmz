@@ -1,61 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" width="200" height="260" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 180" width="210" height="270" role="img" aria-labelledby="t d">
   <title id="t">The LMZ mascot</title>
-  <desc id="d">A small robot with a screen for a face, a pair of parentheses for ears and a lambda for an antenna, waving, in a pink T-shirt with a bold Z on it.</desc>
-  <!-- LMZ's mascot, drawn for this page in the hand of ozd's page: ink,
-       paper and one spot color, fluorescent pink, with 4-unit ink outlines.
-       The antenna is a lambda and the ears are a pair of parentheses, for
-       Lisp; the Z on the shirt is LMZ's. Every shape is outlined in ink and
-       filled with paper or pink, so it reads on a light page and a dark one. -->
-
-  <!-- A paper halo under the ink linework that stands on the background:
-       the antenna, the ears, the arms, the wave and the legs. On a light page it is
-       invisible; on a dark one it keeps them from vanishing. -->
-  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M78 12q13-5 19 7L123 60M108 36L84 60" stroke-width="12"/>
-    <path d="M38 76q-13 23 0 46M162 76q13 23 0 46" stroke-width="11"/>
-    <path d="M52 182q-12 18-6 34M148 176q24-6 26-34" stroke-width="10"/>
-    <path d="M163 120l3 6M175 115v7M187 120l-3 6" stroke-width="7"/>
-    <path d="M83 220v22M117 220v22" stroke-width="19" stroke-linecap="butt"/>
-  </g>
-
-  <!-- the antenna: a lambda -->
-  <path d="M78 12q13-5 19 7L123 60M108 36L84 60" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- the ears: ( and ) -->
-  <path d="M38 76q-13 23 0 46M162 76q13 23 0 46" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round"/>
-
-  <!-- the head, with a screen for a face -->
-  <rect x="46" y="56" width="108" height="86" rx="22" fill="#fff" stroke="#141414" stroke-width="4"/>
-  <rect x="58" y="68" width="84" height="62" rx="12" fill="#141414"/>
-  <ellipse cx="84" cy="95" rx="7.5" ry="10.5" fill="#fff"/>
-  <ellipse cx="116" cy="95" rx="7.5" ry="10.5" fill="#fff"/>
-  <circle cx="86" cy="91" r="2.6" fill="#141414"/>
-  <circle cx="118" cy="91" r="2.6" fill="#141414"/>
-  <ellipse cx="70" cy="113" rx="6" ry="3.5" fill="#ff48b0"/>
-  <ellipse cx="130" cy="113" rx="6" ry="3.5" fill="#ff48b0"/>
-  <path d="M92 113q8 8 16 0" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- the neck -->
-  <rect x="90" y="140" width="20" height="10" fill="#141414"/>
-
-  <!-- the arm at rest, drawn under the shirt so the sleeve covers its root -->
-  <path d="M52 182q-12 18-6 34" fill="none" stroke="#141414" stroke-width="5" stroke-linecap="round"/>
-  <circle cx="46" cy="219" r="6.5" fill="#fff" stroke="#141414" stroke-width="3"/>
-
-  <!-- the waving arm, with three strokes of motion -->
-  <path d="M148 176q24-6 26-34" fill="none" stroke="#141414" stroke-width="5" stroke-linecap="round"/>
-  <circle cx="174" cy="137" r="7" fill="#fff" stroke="#141414" stroke-width="3"/>
-  <path d="M163 120l3 6M175 115v7M187 120l-3 6" stroke="#141414" stroke-width="2.5" stroke-linecap="round"/>
-
-  <!-- the legs and shoes -->
-  <rect x="76" y="220" width="14" height="22" fill="#141414"/>
-  <rect x="110" y="220" width="14" height="22" fill="#141414"/>
-  <ellipse cx="80" cy="246" rx="15" ry="7" fill="#fff" stroke="#141414" stroke-width="3.5"/>
-  <ellipse cx="120" cy="246" rx="15" ry="7" fill="#fff" stroke="#141414" stroke-width="3.5"/>
-
-  <!-- the T-shirt, pink, with the Z on a paper patch -->
-  <path d="M78 148Q100 160 122 148L150 158L162 184L138 191L137 224L63 224L62 191L38 184L50 158Z" fill="#ff48b0" stroke="#141414" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M83 150Q100 166 117 150" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="100" cy="196" r="20" fill="#fff" stroke="#141414" stroke-width="3"/>
-  <polygon points="87,183 113,183 113,189 96,203 113,203 113,209 87,209 87,203 104,189 87,189" fill="#141414"/>
+  <desc id="d">LMZ, a 3.5-inch diskette with a happy face, its metal shutter at the top and a paper label reading LMZ, waving.</desc>
+  <!-- LMZ's character, in the family of ozd's page: each project is an
+       object wearing Cold Boot's face and waving arm, whose shapes are Cold
+       Boot's own (CC BY-SA 4.0). CADR is the terminal, OZ the cabinet,
+       muir-fpga the board; LMZ is the software, so it is a diskette: ink,
+       paper and one spot color, fluorescent pink. The letters of LMZ are
+       drawn as shapes, so the label reads the same without any font. -->
+  <defs>
+    <g id="face-happy">
+      <ellipse cx="46" cy="50" rx="9" ry="13" fill="#fff"/>
+      <ellipse cx="74" cy="50" rx="9" ry="13" fill="#fff"/>
+      <ellipse cx="47" cy="53" rx="6.2" ry="9.5" fill="#141414"/>
+      <ellipse cx="73" cy="53" rx="6.2" ry="9.5" fill="#141414"/>
+      <ellipse cx="47" cy="58" rx="4.6" ry="3.6" fill="#ff48b0"/>
+      <ellipse cx="73" cy="58" rx="4.6" ry="3.6" fill="#ff48b0"/>
+      <circle cx="44.5" cy="48" r="2.8" fill="#fff"/>
+      <circle cx="70.5" cy="48" r="2.8" fill="#fff"/>
+      <circle cx="49" cy="57" r="1.2" fill="#fff"/>
+      <circle cx="75" cy="57" r="1.2" fill="#fff"/>
+      <path d="M54 74q6 6 12 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M29 70l3-5M33 70l3-5M37 70l3-5M80 70l3-5M84 70l3-5M88 70l3-5" stroke="#ff48b0" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g id="arm-wave">
+      <path d="M106 64q17-4 14-25" fill="none" stroke="#141414" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="120" cy="36" r="5.5" fill="#fff" stroke="#141414" stroke-width="3"/>
+      <path d="M111 22l3 5M120 18v6M129 22l-3 5" stroke="#141414" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect x="44" y="146" width="10" height="14" fill="#141414"/><rect x="66" y="146" width="10" height="14" fill="#141414"/><polygon points="10,26 102,26 110,34 110,148 10,148" fill="#141414"/><rect x="34" y="26" width="52" height="30" rx="2" fill="#fff" stroke="#141414" stroke-width="3"/><rect x="66" y="31" width="12" height="20" fill="#141414"/><use href="#face-happy" y="30"/><rect x="20" y="116" width="80" height="28" rx="2" fill="#fff"/><rect x="20" y="116" width="80" height="5" fill="#ff48b0"/><polygon points="32.40,123.40 37.80,123.40 37.80,137.20 46.80,137.20 46.80,142.60 32.40,142.60" fill="#141414"/><polygon points="49.80,142.60 49.80,123.40 55.20,123.40 59.40,130.00 63.60,123.40 69.00,123.40 69.00,142.60 63.60,142.60 63.60,132.40 59.40,138.40 55.20,132.40 55.20,142.60" fill="#141414"/><polygon points="72.00,123.40 87.60,123.40 87.60,128.80 78.60,137.20 87.60,137.20 87.60,142.60 72.00,142.60 72.00,137.20 81.00,128.80 72.00,128.80" fill="#141414"/><use href="#arm-wave" x="4" y="36"/>
 </svg>
