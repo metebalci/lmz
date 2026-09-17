@@ -213,8 +213,8 @@ b { font-weight: 700; }
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  /* LMZ: paper keys, not ink: no black button on this page. */
-  background: var(--paper);
+  /* LMZ: every key is pink, like the GitHub one; no black button on this page. */
+  background: var(--spot-tint);
   color: var(--ink);
   border: 2px solid var(--ink);
   border-bottom-width: 5px;
