@@ -213,8 +213,9 @@ b { font-weight: 700; }
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background: var(--ink);
-  color: var(--paper);
+  /* LMZ: paper keys, not ink: no black button on this page. */
+  background: var(--paper);
+  color: var(--ink);
   border: 2px solid var(--ink);
   border-bottom-width: 5px;
   border-radius: 4px;
@@ -226,7 +227,7 @@ b { font-weight: 700; }
 
 /* ---------------------------------------------------------- the mascot */
 
-/* Drawn at 200 by 260 units; shown between about 200 and 320 pixels wide. */
+/* Drawn at 140 by 180 units; shown between about 200 and 270 pixels wide. */
 .mascot { display: block; width: min(100%, 17rem); height: auto; }
 
 /* ---------------------------------------------------------------- lists */
