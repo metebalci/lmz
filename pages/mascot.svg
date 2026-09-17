@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" width="200" height="260" role="img" aria-labelledby="t d">
+  <title id="t">The LMZ mascot</title>
+  <desc id="d">A small robot with a screen for a face, a pair of parentheses for ears and a lambda for an antenna, waving, in a pink T-shirt with a bold Z on it.</desc>
+  <!-- LMZ's mascot, drawn for this page in the hand of ozd's page: ink,
+       paper and one spot color, fluorescent pink, with 4-unit ink outlines.
+       The antenna is a lambda and the ears are a pair of parentheses, for
+       Lisp; the Z on the shirt is LMZ's. Every shape is outlined in ink and
+       filled with paper or pink, so it reads on a light page and a dark one. -->
+
+  <!-- A paper halo under the ink linework that stands on the background:
+       the antenna, the ears, the arms, the wave and the legs. On a light page it is
+       invisible; on a dark one it keeps them from vanishing. -->
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 12q13-5 19 7L123 60M108 36L84 60" stroke-width="12"/>
+    <path d="M38 76q-13 23 0 46M162 76q13 23 0 46" stroke-width="11"/>
+    <path d="M52 182q-12 18-6 34M148 176q24-6 26-34" stroke-width="10"/>
+    <path d="M163 120l3 6M175 115v7M187 120l-3 6" stroke-width="7"/>
+    <path d="M83 220v22M117 220v22" stroke-width="19" stroke-linecap="butt"/>
+  </g>
+
+  <!-- the antenna: a lambda -->
+  <path d="M78 12q13-5 19 7L123 60M108 36L84 60" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- the ears: ( and ) -->
+  <path d="M38 76q-13 23 0 46M162 76q13 23 0 46" fill="none" stroke="#141414" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- the head, with a screen for a face -->
+  <rect x="46" y="56" width="108" height="86" rx="22" fill="#fff" stroke="#141414" stroke-width="4"/>
+  <rect x="58" y="68" width="84" height="62" rx="12" fill="#141414"/>
+  <ellipse cx="84" cy="95" rx="7.5" ry="10.5" fill="#fff"/>
+  <ellipse cx="116" cy="95" rx="7.5" ry="10.5" fill="#fff"/>
+  <circle cx="86" cy="91" r="2.6" fill="#141414"/>
+  <circle cx="118" cy="91" r="2.6" fill="#141414"/>
+  <ellipse cx="70" cy="113" rx="6" ry="3.5" fill="#ff48b0"/>
+  <ellipse cx="130" cy="113" rx="6" ry="3.5" fill="#ff48b0"/>
+  <path d="M92 113q8 8 16 0" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- the neck -->
+  <rect x="90" y="140" width="20" height="10" fill="#141414"/>
+
+  <!-- the arm at rest, drawn under the shirt so the sleeve covers its root -->
+  <path d="M52 182q-12 18-6 34" fill="none" stroke="#141414" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="46" cy="219" r="6.5" fill="#fff" stroke="#141414" stroke-width="3"/>
+
+  <!-- the waving arm, with three strokes of motion -->
+  <path d="M148 176q24-6 26-34" fill="none" stroke="#141414" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="174" cy="137" r="7" fill="#fff" stroke="#141414" stroke-width="3"/>
+  <path d="M163 120l3 6M175 115v7M187 120l-3 6" stroke="#141414" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- the legs and shoes -->
+  <rect x="76" y="220" width="14" height="22" fill="#141414"/>
+  <rect x="110" y="220" width="14" height="22" fill="#141414"/>
+  <ellipse cx="80" cy="246" rx="15" ry="7" fill="#fff" stroke="#141414" stroke-width="3.5"/>
+  <ellipse cx="120" cy="246" rx="15" ry="7" fill="#fff" stroke="#141414" stroke-width="3.5"/>
+
+  <!-- the T-shirt, pink, with the Z on a paper patch -->
+  <path d="M78 148Q100 160 122 148L150 158L162 184L138 191L137 224L63 224L62 191L38 184L50 158Z" fill="#ff48b0" stroke="#141414" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M83 150Q100 166 117 150" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="100" cy="196" r="20" fill="#fff" stroke="#141414" stroke-width="3"/>
+  <polygon points="87,183 113,183 113,189 96,203 113,203 113,209 87,209 87,203 104,189 87,189" fill="#141414"/>
+</svg>
