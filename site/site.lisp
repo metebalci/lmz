@@ -1,7 +1,7 @@
 ;;;-*- Mode:LISP; Package:SYSTEM-INTERNALS; Base:8 -*-
-;;; Site declaration for Z54
+;;; Site declaration for LMZ
 
-(DEFSITE :Z54
+(DEFSITE :LMZ
   ;; How to log in to get system files
   (:SYS-LOGIN-NAME "LISPM")
   (:SYS-LOGIN-PASSWORD "LISPM")
