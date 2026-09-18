@@ -18,9 +18,8 @@ repository, is something else: the site files a Lisp Machine loads.)
 `.github/workflows/pages.yml` publishes this directory on every push to
 `main` that touches it, and can be run by hand. It needs a one-time setting:
 the repository's Pages source must be GitHub Actions (Settings, Pages, Build
-and deployment, Source). The page is then served at the repository's
-`github.io` address. A custom domain can be added later, with a `CNAME` file
-here and the same domain in the Pages settings; none is chosen yet.
+and deployment, Source). The deployed page is served at <https://lmz.metebalci.com/>, the custom
+domain configured in the repository's Pages settings, with HTTPS enforced.
 
 To look at the page before pushing, open `index.html` in a browser, or serve
 the directory:
